@@ -10,7 +10,7 @@ specifiers:
   '@jeecg/online': 3.7.1-RC
   '@purge-icons/generated': ^0.10.0
   '@rys-fe/vite-plugin-theme': ^0.8.6
-  '@tinymce/tinymce-vue': 4.0.7
+  '@tinymce/tinymce-vue': 5.0.0
   '@traptitech/markdown-it-katex': ^3.6.0
   '@types/codemirror': ^5.60.15
   '@types/crypto-js': ^4.2.2
@@ -142,7 +142,7 @@ dependencies:
   '@ant-design/icons-vue': 7.0.1_vue@3.4.21
   '@iconify/iconify': 3.1.1
   '@jeecg/online': 3.7.1-RC
-  '@tinymce/tinymce-vue': 4.0.7_vue@3.4.21
+  '@tinymce/tinymce-vue': 5.0.0_vue@3.4.21
   '@traptitech/markdown-it-katex': registry.npmmirror.com/@traptitech/markdown-it-katex/3.6.0
   '@vant/area-data': 1.5.2
   '@vue/shared': 3.4.21
@@ -1823,12 +1823,12 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@tinymce/tinymce-vue/4.0.7_vue@3.4.21:
-    resolution: {integrity: sha512-1esB8wGWrjPCY+rK8vy3QB1cxwXo7HLJWuNrcyPl6LOVR+QJjub0OiV/C+TUEsLN6OpCtRv+QnIqMC5vXz783Q==}
+  /@tinymce/tinymce-vue/5.0.0_vue@3.4.21:
+    resolution: {integrity: sha512-1HRCNa2eGdztOKShYAiHIry50LTU6YJG//qSP9AJElrXhb3BIBN0Bef6E56nZObVgwCgSmI4cnX35VU9D49aow==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
-      tinymce: 5.10.9
+      tinymce: 6.6.2
       vue: 3.4.21_typescript@4.9.5
     dev: false
 
@@ -2501,7 +2501,7 @@ packages:
   /axios/0.26.1_debug@4.3.4:
     resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
     dependencies:
-      follow-redirects: 1.15.6
+      follow-redirects: 1.15.6_debug@4.3.4
     transitivePeerDependencies:
       - debug
     dev: true
@@ -4357,6 +4357,7 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dev: false
 
   /follow-redirects/1.15.6_debug@4.3.4:
     resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
@@ -7529,10 +7530,6 @@ packages:
   /tinycolor2/1.6.0:
     resolution: {integrity: sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==}
     dev: true
-
-  /tinymce/5.10.9:
-    resolution: {integrity: sha512-5bkrors87X9LhYX2xq8GgPHrIgJYHl87YNs+kBcjQ5I3CiUgzo/vFcGvT3MZQ9QHsEeYMhYO6a5CLGGffR8hMg==}
-    dev: false
 
   /tinymce/6.6.2:
     resolution: {integrity: sha512-ShoaznNP3qI8dPtEnYt3ByhAJfMhzIY1K04CoFu1IPDeAxmAZCUJLgfiplo8etP4wN8zrBIxHEqpwYYb2IllOQ==}
